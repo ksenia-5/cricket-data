@@ -2,11 +2,11 @@
 name = "cricket-data"
 version = "0.1.0"
 description = ""
-authors = ["Ksenia Germanovich <ksenia.germanovich@ba.com>"]
+authors = ["Ksenia Germanovich <xenia.germanovich@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = ">=3.11.7,<3.12"
 requests = "^2.31.0"
 bs4 = "^0.0.1"
 pandas = "^2.1.4"
@@ -14,8 +14,9 @@ numpy = "^1.26.2"
 matplotlib = "^3.8.2"
 lxml = "^4.9.4"
 html5lib = "^1.1"
-
+plotly = "^5.18.0"
+apache-airflow = "^2.8.0"
 
 [build-system]
-requires = ["poetry-core"]
+requires = ["poetry-core>=1.6"]
 build-backend = "poetry.core.masonry.api"
